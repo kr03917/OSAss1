@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -s -p "Please enter a password(input is hidden):" inputPassword
+inputPassword=$1
 echo
 isCorrect=0
 
